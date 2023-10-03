@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/background">
+        <shape
+            android:shape="ring"
+            android:useLevel="false"
+            android:thickness="@dimen/_15sdp">
+            <solid
+                android:color="#8897A3"/>
+        </shape>
+
+    </item>
+
+    <item
+        android:id="@+id/progress">
+
+            <shape
+                android:shape="ring"
+                android:useLevel="true"
+                android:thickness="@dimen/_15sdp"
+                >
+                <solid
+                    android:color="#FFC003"/>
+            </shape>
+
+    </item>
+</layer-list>
